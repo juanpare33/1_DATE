@@ -365,7 +365,7 @@
     normalement, mais aucune notification WhatsApp ne sera envoyée.
   */
 
-  const RESPONSE_WHATSAPP = "15149749605";
+  const RESPONSE_WHATSAPP = 15149749605;
 
   function show(id){
     document.querySelectorAll('.screen').forEach(screen => {
@@ -376,7 +376,7 @@
   }
 
   function sendResponse(answer){
-    if(RESPONSE_WHATSAPP !== "15149749605"){
+    if(RESPONSE_WHATSAPP !== 15149749605){
       const message = encodeURIComponent(
         "Réponse à ton invitation digitale du 28 août : " + answer
       );
